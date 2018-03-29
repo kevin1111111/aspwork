@@ -5,9 +5,9 @@ using System.Web;
 
 namespace WebApplication2.Models
 {
-    public class Class1
+    public class Orders
     {
-        public int OrderID{ get; set; }
+        public int OrderID { get; set; }
 
         public int CustomerID { get; set; }
 
@@ -32,6 +32,6 @@ namespace WebApplication2.Models
         public Char ShipPostalCode { get; set; }
 
         public Char ShipCountry { get; set; }
-        
+
     }
 }
